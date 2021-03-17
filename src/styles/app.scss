@@ -1,8 +1,8 @@
-@import "./styles/normalize";
+@import "./normalize";
 
 body {
   min-height: 100vh;
-  background: #f4f5f6 url('./assets/images/bg.jpg') center fixed no-repeat;
+  background: #f4f5f6 url('../assets/images/bg.jpg') center fixed no-repeat;
   background-size: cover;
 }
 
@@ -14,6 +14,6 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
